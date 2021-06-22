@@ -35,12 +35,45 @@
   line-height: 70px;
 }
 
+.header-logo {
+  font-size: 20px;
+  font-weight: bold;
+  margin-left: 35px;
+  color: #fff;
+  line-height: 70px;
+}
+
+.header-nav li {
+  display: inline-block;
+  margin-right: 35px;
+  font-size: 16px;
+}
+
+.header-nav a {
+  color: #fff;
+}
+
 @media screen and (max-width: 768px) {
+  .flex {
+    display: none;
+  }
+
+  .header-logo {
+    margin: 0;
+    width: 100%;
+    text-align: center;
+  }
+  
+  .header-nav {
+    display: none;
+  }
+
   .top-footer {
     margin: 0;
     width: 100%;
     text-align: center;
   }
+
   .menu-content {
     display: block;
     width: calc(100% - 80px);

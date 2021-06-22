@@ -1,6 +1,7 @@
 <template>
   <div id="app">
     <CommonHeader></CommonHeader>
+    <div class="top">
       <div id="firstview">
         <p class="catchcopy">機械ではできない仕事を</p>
       </div>
@@ -13,6 +14,7 @@
           </div>
           <div class="news-icon">news</div>
         </div>
+    </div>
         <main>
         <div class="mission">
           <div class="mission-content">
@@ -347,6 +349,10 @@ body {
 /*------------------------*/
 /*         news           */
 /*------------------------*/
+.top {
+  position: relative;
+}
+
 .news {
   position: absolute;
   bottom: 0;
